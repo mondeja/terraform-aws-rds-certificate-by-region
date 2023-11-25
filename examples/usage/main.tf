@@ -10,4 +10,3 @@ output "id" {
 output "url" {
   value = module.rds_certificate_by_region.url
 }
-
