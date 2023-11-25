@@ -6,7 +6,7 @@ This is a simple terraform module to get information about a private RDS AWS cer
 
 ```hcl
 module "rds_certificate_by_region" {
-  source = "github.com/softmond-oss/aws-certificate-name-by-region"
+  source = "github.com/softmond-oss/aws-rds-certificate-name-by-region"
   region = "eu-south-2"
 }
 
